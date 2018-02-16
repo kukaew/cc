@@ -1,7 +1,7 @@
 # Coin & coins
 «Коин энд коинс» — конвертирует доллар, евро, фунт, рубли, йену, юань, гривну, тенге, франк, рупий, лею, драм и лиру в доллар, евро, фунт, рубли, йену, юань, гривну, тенге, франк, рупий, лею, драм и лиру в любых количествах и за любую дату из последних семнадцати лет.
 
-Демо: https://kukaew.github.io/cc/
+Демо: [kukaew.github.io/cc](https://kukaew.github.io/cc/)
 
 Набирайте с клавиатуры домены стран, к примеру: 
 
@@ -39,6 +39,6 @@
 
  *RewriteRule ^curs\.json$ /curs.php [L]* (не забудьте про '*RewriteEngine on*'!)
 
-Рабочий вариант: http://cc.rewww.ru/
+Рабочий вариант: [cc.rewww.ru](http://cc.rewww.ru/)
 
 ![alt text](https://raw.githubusercontent.com/kukaew/cv/master/cover.png)
