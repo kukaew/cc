@@ -49,5 +49,5 @@ sml{font-size:17px}
 @media (max-width:500px){
 .pds{display:none}
 .mpds{display:block}
-#grd{min-height:100vh}
+#grd{min-height:90vh}
 }
