@@ -3,7 +3,7 @@ html *{max-height:1000000px;border:none;outline:none;margin:0;padding:0;backgrou
 ::-moz-selection{color:inherit;background:#0302}
 body{font:normal 17px/1.3 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;width:100%;height:100vh;margin:0 auto;text-align:center;overflow:auto;background-color:#fff;color:#333}
 body,button>span,#wnd,.cnt img,.cnt::after{background: #f6f6f6;background: linear-gradient(to right,#f2f2f2 0%,#fff 100%);}
-button>span,#wnd,.cnt img,.cnt::after{background-attachment:fixed;background-position-x:left}
+button>span,#wnd,.cnt img,.cnt::after{background-attachment:fixed;background-position-x:left;background-size:cover;}
 a{border-bottom:solid 1px #39c;color:#157aac;text-decoration:none}
 #grd{display:grid;grid-template-areas:'seg seg seg''tbl tbl tbl''lf btnwrp rf';grid-template-columns:1fr minmax(64px,384px) 1fr;grid-template-rows:10vh minmax(40vh,auto) auto;align-items:end;}
 #seg{grid-area:seg;margin-bottom: 10px;}
