@@ -45,8 +45,13 @@ sml{font-size:17px}
 .e3 #lnk,.e0 #dat,.e1 #v,.e0 #v{visibility:visible}
 .num,.cnt,.e2 #v,.e3 #v,.mpds,#dat{display:none}
 .e0 .num,.e1 .num,.e4 .num,.e2 .cnt,.e3 .cnt,.e0 #dat,.e1 #dat{display:inline-block}
-@media (max-width:500px){
+@media only screen and (max-width:414px) and (orientation: portrait) {
 .pds{display:none}
 .mpds{display:block}
 #grd{min-height:90vh}
+}
+@media only screen and (max-width:736px) and (orientation: landscape) {
+.pds{display:none}
+.mpds{display:block}
+#grd{min-height:90vh}	
 }
