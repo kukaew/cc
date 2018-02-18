@@ -12,19 +12,14 @@ a{border-bottom:solid 1px #39c;color:#157aac;text-decoration:none}
 #tbl{position:relative}
 #tbl:empty::after{right:-8px}
 #tbl::after{content:'';position:absolute;bottom:0;right:-15px;background:transparent;width:15px;height:1px;-webkit-animation:blink 1s cubic-bezier(.68,-.55,.27,1.55) infinite;animation:blink 1s cubic-bezier(.68,-.55,.27,1.55) infinite}
-@-webkit-keyframes blink{100%{background:#333}
+@-webkit-keyframes blink{100%{background:#eee}
 }
-@keyframes blink{100%{background:#333}
+@keyframes blink{100%{background:#eee}
 }
 #tbl:empty,#tbl>span{display:inline-block; margin-left:5px}
 #tbl img{width:37px;margin-bottom:-5px;padding:0 5px}
 button{position:relative;height:40px;border-radius: 10px;margin:5px;width:calc(33.333% - 10px);text-align:left;cursor:pointer;overflow: visible;}
 button,#wnd::after{background-attachment:fixed;box-shadow: 1px 0 0 0 #ddd;font-size: 20px;}
-button.sel{-webkit-animation:way 1s infinite linear;animation:way 1s infinite linear}
-@-webkit-keyframes way{100%{background-position-x:49px}
-}
-@keyframes way{100%{background-position-x:49px}
-}
 button.hld{cursor:default;box-shadow:none;background:none;opacity: .3;}
 button.hld img{opacity:.2;box-shadow:none}
 .hddn{color:transparent;font-size:0;line-height:0}
